@@ -3,6 +3,7 @@
 body {
   font-family: "Open Sans";
   font-weight: 300;
+  background-color: rgb(240, 240, 240);
 }
 
 h1 {
@@ -11,7 +12,9 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  width: 600px;
+  font-size: 16px;
+  margin: 20px auto;
 }
 
 h2 {
@@ -45,10 +48,12 @@ a:hover {
   background: white;
   padding: 30px;
   border: 1px solid lightgrey;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
 }
 
-.list-inline {
-  text-align: center;
+.list-inline ul {
   padding-left: 0px;
 }
 
